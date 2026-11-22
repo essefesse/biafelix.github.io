@@ -1729,3 +1729,6 @@ h2.about__section-name,h2.contact__section-name{margin:0}
 @media (max-width: 820px) {
   #work .section-head { padding-left: 40px; }
 }
+.tl-item { pointer-events: none; }
+.tl-item::before { pointer-events: none; }
+.tl-item .tl-card, .tl-item .tl-item__when { pointer-events: auto; position: relative; z-index: 2; }
